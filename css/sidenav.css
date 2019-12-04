@@ -25,6 +25,14 @@
 
 }
 
+.post-it {
+    width: 200px;
+    position: absolute;
+    top:25px;
+    left: 350px;
+    
+}
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
