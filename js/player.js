@@ -1,6 +1,11 @@
 var song;
 var x = 1;
 
+//var micOn;
+//var mic;
+//var recorder;
+//var soundFile;
+
 function preload() {
     soundFormats('mp3', 'ogg');
     song1();
@@ -13,10 +18,21 @@ function preload() {
 
 function setup() {
     var canvas = createCanvas(0, 0);
+//    mic = new p5.AudioIn();
+//    micOn = false;
+    
     canvas.parent('player');
+    
+//    mic.start();
+    
+//    recorder = new p5.SoundRecorder();
+//    
+//    recorder.setInput(mic);
+//    soundFile = new p5.SoundFile();
     vol();
     buttons();
-    song.setVolume(0);
+    
+//    song.setVolume(0);
     
 }
 
@@ -70,7 +86,7 @@ function buttons() {
         song.rate(x);
         song.play();
         document.getElementById('ff').addEventListener('click', function() {
-            x = 3;
+            x = 4;
             song.rate(x);
         });
         document.getElementById('rew').addEventListener('click', function(rewind) {
@@ -86,31 +102,30 @@ function buttons() {
         x = 1;
         song.rate(x);
         song.pause();
+        recorder.stop();
     });
     document.getElementById('pause').addEventListener('click', function(){
         x = 1;
         song.rate(x);
        song.pause(); 
     });
+    document.getElementById('record').addEventListener('click', function() {
+        alert("Maybe one day there will be the technology to record sound!");
+//        micOn = !micOn;
+//        
+//        if (micOn) {
+//            mic.start;
+//            recorder.record(soundFile);
+//        }else{
+//            mic.stop();
+//            recorder.stop();
+//        }
+});
     
 }
 
 
-//function rec() {
-//    var rbutt = document.getElementById('record');
-//    mic = new p5.AudioIn();
-//    
-//    rbutt.addEventListener('click', function(){
-//        mic.start();
-//        
-//        recorder = new p5.SoundRecorder();
-//        
-//        recorder.setInput(mic);
-//        
-//        soundFile = new p5.SoundFile();
-//        
-//    }); 
-//}
+
 
 function openNav() {
     document.getElementById("sidenav").style.width = "350px";

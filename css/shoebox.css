@@ -99,6 +99,8 @@ svg #_Image8 {
     margin: auto;
     padding: 25px;
     width: 400px;
+    box-shadow: -10px 5px 35px black;
+    border-radius: 10px;
     grid-template-areas: 'a a a a a a a'
                          'b b b b b b b'
                          '. . . . c2 c2 c2'
