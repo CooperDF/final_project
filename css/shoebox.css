@@ -1,0 +1,114 @@
+.speaker {
+    grid-area: a;
+    width: 350px
+}
+
+.deck {
+    grid-area: b;
+    width: 350px
+}
+
+/*
+.cleaning {
+    grid-area: c1;
+}
+*/
+
+.product-name {
+    grid-area: c2;
+}
+
+.on-off {
+    grid-area: d;
+    width: 75px;
+}
+
+.stop-button {
+    grid-area: e;
+/*    width: 50px;*/
+}
+
+.rew-button {
+    grid-area: f;
+/*    width: 50px;*/
+}
+
+.ff-button {
+    grid-area: g;
+/*    width: 50px;*/
+}
+
+.play-button {
+    grid-area: h;
+/*    width: 50px;*/
+}
+
+.rec-button {
+    grid-area: i;
+/*    width: 50px;*/
+}
+
+.pause-button {
+    grid-area: j;
+/*    width: 50px;*/
+}
+
+svg #volume-nob {
+    transform-origin: 50% 50%;
+    cursor: pointer;
+}
+
+svg #stop {
+    cursor: pointer;
+}
+
+svg #play {
+    cursor: pointer;
+}
+svg #ff {
+    cursor: pointer;
+}
+
+svg #record {
+    cursor: pointer;
+}
+svg #rew {
+    cursor: pointer;
+}
+
+svg #pause {
+    cursor: pointer;
+}
+svg #_Image8 {
+    fill: rgb(255,255,255);
+}
+
+.controls {
+    grid-area: k;
+    display: grid;
+    background-color: darkslategray;
+    width: 350px;
+    padding: 10px;
+    grid-template-areas: 'd e f g h i j';
+    grid-column-gap: 5px;
+}
+
+.shoebox {
+    display: grid;
+    background-color: red;
+    margin: auto;
+    padding: 25px;
+    width: 400px;
+    grid-template-areas: 'a a a a a a a'
+                         'b b b b b b b'
+                         '. . . . c2 c2 c2'
+                         'k k k k k k k';
+}
+
+/*
+@media only screen and (max-width: 968px) {
+    .shoebox {
+        width: 45vw;
+    }
+}
+*/

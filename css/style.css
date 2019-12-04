@@ -1,0 +1,29 @@
+@import "sidenav.css";
+@import "shoebox.css";
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#background {
+    min-height: 100vh;
+    background-image: url(https://media.giphy.com/media/xUOxeZR9gmFzbH8FRS/giphy.gif);
+    background-repeat: repeat;
+}
+
+.container {
+/*    background-color: grey;*/
+    height: 100vh;
+    width: 96vw;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+
+

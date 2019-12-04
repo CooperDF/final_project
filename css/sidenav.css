@@ -1,0 +1,108 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkslategray;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.navOpen {
+    position: absolute;
+    margin: 25px;
+    color: aqua;
+}
+
+.navOpen img {
+    width: 200px;
+    transform: rotate(-15deg);
+    filter: brightness(115);
+
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 35px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.sidenav .list-item {
+    padding: 0px 8px 8px 25px;
+    height: 75px;
+    margin: 10px;
+    display: block;
+    transition: 0.3s;
+    border-style: solid;
+    border-width:thick;
+    border-color: rgba(200,200,200,0.50);
+    border-radius: 5px;
+    
+}
+
+.sidenav .list-item:hover {
+    background-color: blue;
+}
+
+#tapes1{
+    font-family: 'Bebas Neue', cursive;
+    color: beige;
+    text-decoration: none;
+    background-color:darkred
+} 
+
+#tapes2{
+    font-family: 'Shadows Into Light', cursive;
+    color: blue;
+    text-decoration: none;
+    background-color: springgreen;
+} 
+
+#tapes3 {
+    font-family: 'Londrina Solid', cursive;
+    color: wheat;
+    text-decoration: none;
+    background-color: darkslategray;
+} 
+
+#tapes4 {
+    font-family: 'Permanent Marker', cursive;
+    color: darkviolet;
+    text-decoration: none;
+    background-color: coral;
+} 
+
+#tapes5{
+    font-family: 'Permanent Marker', cursive; 
+    color: aqua;
+    text-decoration: none;
+    background-color: darkblue;
+} 
+
+#tapes6 {
+    font-family: 'Mansalva', cursive;
+    color:yellow;
+    text-decoration: none;
+    background-color: firebrick;
+/*    padding: 0;*/
+    
+}
+h1{
+    font-size: 27px;
+/*    font-size: 24px*/
+    padding: 0;
+    margin: 0
+}
+
+h3{
+    font-size: 18px;
+    padding: 0;
+    margin: 0
+}
