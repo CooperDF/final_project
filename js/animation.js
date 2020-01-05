@@ -211,7 +211,7 @@ document.getElementById('tapes1').addEventListener('click', function(putback) {
     gsap.set("#cassette", {transformOrigin: "50% 0%"})
         gsap.to("#cassette", 1,{
             translateY: 0});
-        new Audio('/sounds/click.ogg').play();
+        new Audio('/sounds/click1.ogg').play();
     }
 })
 
