@@ -13,7 +13,7 @@ html, body {
 
 #background {
     min-height: 100vh;
-    background-image: url('/images/d37a3db401bca1bd76aba16f132fd09b.jpg');
+    background-image: url('../images/d37a3db401bca1bd76aba16f132fd09b.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
