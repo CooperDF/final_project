@@ -42,13 +42,13 @@ function draw() {
 }
 
 function song1() {
-    song = loadSound('sounds/songs/C418-stranger-think.mp3');
+    song = loadSound('sounds/songs/01 Safe & Sound.mp3');
     document.getElementById('sidenav').style.width = "0";
 
 }
 
 function song2() {
-    song = loadSound('sounds/songs/Tuxedo-Do-It.mp3');
+    song = loadSound('sounds/songs/CruciA x Breezer - Brain Bomb (Original Mix).mp3');
     document.getElementById('sidenav').style.width = "0";
 }
 
@@ -68,7 +68,7 @@ function song5() {
 }
 
 function song6() {
-    song = loadSound('sounds/songs/Jack-Stauber-Buttercup.mp3');
+    song = loadSound('sounds/songs/TheFatRat - Windfall (1).mp3');
     document.getElementById('sidenav').style.width = "0";
 }
 
